@@ -4,10 +4,6 @@ clc
 clearvars
 close all
 
-%% Starting sequence
-disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
-disp('%%%%%%%%%%%%%%%%%%%%%% STARTING ACTIVITY 18 %%%%%%%%%%%%%%%%%%%%%%%')
-disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 
 %% Define conditions and column headers
 ColumnHeaders = {'LR_pVGRF_FAST','PO_pVGRF_FAST','LR_pVGRFt_FAST','PO_pVGRFt_FAST',...
@@ -200,10 +196,6 @@ else
     writetable(T,[pathname filename],'WriteRowName',1)
 end
 
-%% Ending sequence
-disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
-disp('%%%%%%%%%%%%%%%%%%%%%% ACTIVITY 18 FINISHED %%%%%%%%%%%%%%%%%%%%%%%')
-disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 
 
 
